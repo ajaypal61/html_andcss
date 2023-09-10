@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/***********************************************
+Navbar 
+***********************************************/
+
+.navbar {
+    height: 50px;
+    font-family: math;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background: #00000078;
+}
+
+.logo {
+    padding-left: 20px;
+    height: 70px;
+    width: auto;
+}
+
+.nav_div {
+    padding-right: 40px;
+}
+
+.nav_link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_link:hover {
+    color: rgba(219, 217, 214, 0.82);
+}
+
+.nav_link:active {
+    color: red;
+}
+
+/***********************************************
+slider 
+***********************************************/
+
+.slider {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0 0 0 / 51%)), url('../photo/deve2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.slider_div {
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;
+}
+
+.intro {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 0 2rem;
+    font-family: math;
+}
+
+.intro_p {
+    font-size: 2rem;
+    color: white;
+    padding: 0.2rem 0 2rem 0;
+    margin: 0 2rem;
+    font-family: math;
+}
+
+.slider_btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    background: cadetblue;
+    margin: 0 0.9rem;
+    border-radius: 10px;
+    font-family: math;
+}
+
+/***********************************************
+About
+***********************************************/
+
+.about {
+    display: flex;
+    background: #f7f9fb;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.about_name {
+    width: 30%;
+    padding: 0 1.5rem;
+}
+
+.about_h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: math;
+    color: #24262a;
+}
+
+.about_p {
+    font-family: math;
+    color: #4d5055;
+    padding-top: 5px;
+}
+
+.about_skill {
+    width: 20%;
+}
+
+.about_h {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: math;
+    color: #24262a;
+    text-align: center;
+}
+
+.skill_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_quali {
+    width: 30%;
+}
+
+/***********************************************
+Project
+***********************************************/
+
+.project {
+    padding: 2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.project_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: math;
+}
+
+.project_ti {
+    width: 55%;
+    font-family: math;
+    color: #4d5055;
+}
+
+.project_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.project_img {
+    width: 300px;
+}
+
+.blue {
+    text-decoration: none;
+}
+
+.project_p {
+    width: 300px;
+}
+
+/***********************************************
+Skill
+***********************************************/
+
+.skill_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: math;
+    text-align: center;
+    padding: 2rem;
+}
+
+.skill_div_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.skill_img_div {
+    width: 50%;
+}
+
+.skill_img {
+    width: 100%;
+}
+
+.skill_div_cont {
+    width: 50%;
+    padding-left: 2rem;
+}
+
+.skill_h {
+    font-size: 1.5rem;
+    font-family: math;
+    padding: 15px 0;
+}
+
+.skill_div_cont p {
+    color: #646567;
+}
+
+.skill_icon {
+    width: 3.5rem;
+    padding-top: 15px;
+}
+
+/***********************************************
+Contact
+***********************************************/
+
+.contact {
+    padding: 2rem 0;
+}
+
+.contact_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: math;
+}
+
+.title_p {
+    width: 50%;
+    font-family: math;
+    color: #646567;
+}
+
+.contact_form {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form-group {
+    /* width: 500px; */
+    padding: 7px 0;
+}
+
+.form-control-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    /* border: 1px solid rgba(30, 28, 28, 0.71); */
+}
+
+.form-control-textarea {
+    width: 50%;
+    height: 30vh;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.submit {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    background: rgb(6 51 45);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    background: white;
+    color: black;
+}
+
+/***********************************************
+Footer
+***********************************************/
+
+.footer {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
